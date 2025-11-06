@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body { 
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  font-style: normal; 
+  border: black solid 5px;
+  width: fit-content;
+  border-radius: 15px;
+}
+
+h1 {
+  margin: 5px;
+  margin-left: 0;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  justify-items: center;
+  padding: 20px;
+  width: fit-content;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  
+}
+
+
+input {
+  width: 280px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 1.08rem;
+  font-family: inherit;
+  font-weight: 600;
+  padding: 2px;
+  border: 2px solid #ccc;
+}
+
+
+#submitBtn {
+  width: 250px;
+  height: 50px;
+  margin: 20px;
+  margin-bottom: 0;
+  background-color: black;
+  color: white;
+  font-family: inherit;
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.progCircle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 6.5rem
+}
+
+ul {
+  background-color: rgb(211, 211, 211, 70%);
+  border-radius: 20px;
+  padding: 15px;
+  height: 250px;
+}
+
+li {
+  font-size: 1rem;
+  font-weight: 500;
+  list-style-type: none;
+  padding: 4.5px;
+}
+
+.liDone {
+  text-decoration: line-through #00000080;
+  opacity: 80%;
+}

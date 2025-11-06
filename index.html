@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <label for="fullName"><h1>Full Name:</h1></label>
+        <input type="text" name="fullName" id="fullName" placeholder="What should we call you?">
+
+        <label for="email"><h1>Email:</h1></label>
+        <input type="email" name="email" id="email" placeholder="john@doe.com" autocomplete="off">
+
+        <label for="pwd"><h1>Enter Password:</h1></label>
+        <input type="password" name="pwd" id="pwd" placeholder="xxxxxxx">
+
+        <label for="cPwd"><h1>Confirm Password:</h1></label>
+        <input type="password" name="cPwd" id="cPwd" placeholder="xxxxxxx">
+
+        <input type="submit" value="Update Profile" id="submitBtn">
+      </form>
+      <section>
+        <div class="progCircle">
+          <img src="/assets/loading-bar.png" alt="loading bar">
+          <h2>Profile Completeness</h2>
+        </div>
+        <ul>
+          <li class="liDone">Create account</li>
+          <li class="liDone">Update roadmap progress</li>
+          <li class="liDone">Setup public profile</li>
+          <li>Complete your first project</li>
+          <li>Invite your friends</li>
+        </ul>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
